@@ -9,10 +9,10 @@ import java.util.Scanner;
  */
 public class MainApplication {
 	
-	private int[] numberRow = new int[4];
-	private int[] userNumberRow = new int[4];
-	private int correctPositions = 0;
-	private int correctNumbers = 0;
+	public int[] numberRow = new int[4];
+	public int[] userNumberRow = new int[4];
+	public int correctPositions = 0;
+	public int correctNumbers = 0;
 
 	/**
 	 * Generates a NumberRow with 5 numbers
