@@ -3,13 +3,20 @@ package mastermind;
 import java.util.Random;
 import java.util.Scanner;
 
+/**
+ * @author 5ia14siaebersold
+ *
+ */
 public class MainApplication {
 	
 	private int[] numberRow = new int[4];
 	private int[] userNumberRow = new int[4];
 	private int correctPositions = 0;
 	private int correctNumbers = 0;
-	
+
+	/**
+	 * Generates a NumberRow with 5 numbers
+	 */
 	public void generateNumberRow() {
 		
 		int max = 6;
@@ -23,7 +30,9 @@ public class MainApplication {
 		System.out.println(numberRow[0]+""+numberRow[1]+""+numberRow[2]+""+numberRow[3]);
 		
 	}
-	
+	/**
+	 * Reads the number input
+	 */
 	public void getNumberRow(){
 		Scanner sc = new Scanner(System.in);
 		int numbers = sc.nextInt();
@@ -39,7 +48,9 @@ public class MainApplication {
 		//System.out.println(userNumberRow[0]+""+userNumberRow[1]+""+userNumberRow[2]+""+userNumberRow[3]);
 		
 	}
-	
+	/**
+	 * Checks if Input equals generated number
+	 */
 	public void checkRow() {
 		
 		correctPositions = 0;
@@ -95,7 +106,10 @@ public class MainApplication {
 		}
 		
 	}
-	
+	/**
+	 * Main
+	 * @param args
+	 */
 	public static void main(String[] args) {
 		MainApplication main = new MainApplication();
 		main.generateNumberRow();
