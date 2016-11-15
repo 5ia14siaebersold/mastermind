@@ -1,4 +1,4 @@
-package mastermind;
+package ch.bbw.mastermind;
 
 import java.util.Random;
 import java.util.Scanner;
