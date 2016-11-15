@@ -43,6 +43,7 @@ public class MainApplication {
 		    userNumberRow[i] = j;
 		}
 		
+		// call method checkRow()
 		checkRow();
 		
 		//System.out.println(userNumberRow[0]+""+userNumberRow[1]+""+userNumberRow[2]+""+userNumberRow[3]);
